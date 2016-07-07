@@ -17,7 +17,7 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    //main
+    //main a
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
