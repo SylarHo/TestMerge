@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CA0C8D21D2DE200002B0F38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0C8D11D2DE200002B0F38 /* AppDelegate.m */; };
+		2CA0C8D51D2DE200002B0F38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0C8D41D2DE200002B0F38 /* main.m */; };
+		2CA0C8D71D2DE200002B0F38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA0C8D61D2DE200002B0F38 /* Assets.xcassets */; };
+		2CA0C8DA1D2DE200002B0F38 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CA0C8D81D2DE200002B0F38 /* MainMenu.xib */; };
+		2CA0C8E51D2DE200002B0F38 /* MergeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0C8E41D2DE200002B0F38 /* MergeTestTests.m */; };
+		2CA0C8F01D2DE200002B0F38 /* MergeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CA0C8EF1D2DE200002B0F38 /* MergeTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CA0C8E11D2DE200002B0F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA0C8C51D2DE200002B0F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA0C8CC1D2DE200002B0F38;
+			remoteInfo = MergeTest;
+		};
+		2CA0C8EC1D2DE200002B0F38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CA0C8C51D2DE200002B0F38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CA0C8CC1D2DE200002B0F38;
+			remoteInfo = MergeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2CA0C8CD1D2DE200002B0F38 /* MergeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA0C8D01D2DE200002B0F38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2CA0C8D11D2DE200002B0F38 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2CA0C8D41D2DE200002B0F38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2CA0C8D61D2DE200002B0F38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CA0C8D91D2DE200002B0F38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2CA0C8DB1D2DE200002B0F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA0C8E01D2DE200002B0F38 /* MergeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA0C8E41D2DE200002B0F38 /* MergeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeTestTests.m; sourceTree = "<group>"; };
+		2CA0C8E61D2DE200002B0F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CA0C8EB1D2DE200002B0F38 /* MergeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA0C8EF1D2DE200002B0F38 /* MergeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MergeTestUITests.m; sourceTree = "<group>"; };
+		2CA0C8F11D2DE200002B0F38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CA0C8CA1D2DE200002B0F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA0C8DD1D2DE200002B0F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA0C8E81D2DE200002B0F38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CA0C8C41D2DE200002B0F38 = {
+			isa = PBXGroup;
+			children = (
+				2CA0C8CF1D2DE200002B0F38 /* MergeTest */,
+				2CA0C8E31D2DE200002B0F38 /* MergeTestTests */,
+				2CA0C8EE1D2DE200002B0F38 /* MergeTestUITests */,
+				2CA0C8CE1D2DE200002B0F38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2CA0C8CE1D2DE200002B0F38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0C8CD1D2DE200002B0F38 /* MergeTest.app */,
+				2CA0C8E01D2DE200002B0F38 /* MergeTestTests.xctest */,
+				2CA0C8EB1D2DE200002B0F38 /* MergeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CA0C8CF1D2DE200002B0F38 /* MergeTest */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0C8D01D2DE200002B0F38 /* AppDelegate.h */,
+				2CA0C8D11D2DE200002B0F38 /* AppDelegate.m */,
+				2CA0C8D61D2DE200002B0F38 /* Assets.xcassets */,
+				2CA0C8D81D2DE200002B0F38 /* MainMenu.xib */,
+				2CA0C8DB1D2DE200002B0F38 /* Info.plist */,
+				2CA0C8D31D2DE200002B0F38 /* Supporting Files */,
+			);
+			path = MergeTest;
+			sourceTree = "<group>";
+		};
+		2CA0C8D31D2DE200002B0F38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0C8D41D2DE200002B0F38 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2CA0C8E31D2DE200002B0F38 /* MergeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0C8E41D2DE200002B0F38 /* MergeTestTests.m */,
+				2CA0C8E61D2DE200002B0F38 /* Info.plist */,
+			);
+			path = MergeTestTests;
+			sourceTree = "<group>";
+		};
+		2CA0C8EE1D2DE200002B0F38 /* MergeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2CA0C8EF1D2DE200002B0F38 /* MergeTestUITests.m */,
+				2CA0C8F11D2DE200002B0F38 /* Info.plist */,
+			);
+			path = MergeTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CA0C8CC1D2DE200002B0F38 /* MergeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA0C8F41D2DE200002B0F38 /* Build configuration list for PBXNativeTarget "MergeTest" */;
+			buildPhases = (
+				2CA0C8C91D2DE200002B0F38 /* Sources */,
+				2CA0C8CA1D2DE200002B0F38 /* Frameworks */,
+				2CA0C8CB1D2DE200002B0F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeTest;
+			productName = MergeTest;
+			productReference = 2CA0C8CD1D2DE200002B0F38 /* MergeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CA0C8DF1D2DE200002B0F38 /* MergeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA0C8F71D2DE200002B0F38 /* Build configuration list for PBXNativeTarget "MergeTestTests" */;
+			buildPhases = (
+				2CA0C8DC1D2DE200002B0F38 /* Sources */,
+				2CA0C8DD1D2DE200002B0F38 /* Frameworks */,
+				2CA0C8DE1D2DE200002B0F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA0C8E21D2DE200002B0F38 /* PBXTargetDependency */,
+			);
+			name = MergeTestTests;
+			productName = MergeTestTests;
+			productReference = 2CA0C8E01D2DE200002B0F38 /* MergeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2CA0C8EA1D2DE200002B0F38 /* MergeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CA0C8FA1D2DE200002B0F38 /* Build configuration list for PBXNativeTarget "MergeTestUITests" */;
+			buildPhases = (
+				2CA0C8E71D2DE200002B0F38 /* Sources */,
+				2CA0C8E81D2DE200002B0F38 /* Frameworks */,
+				2CA0C8E91D2DE200002B0F38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CA0C8ED1D2DE200002B0F38 /* PBXTargetDependency */,
+			);
+			name = MergeTestUITests;
+			productName = MergeTestUITests;
+			productReference = 2CA0C8EB1D2DE200002B0F38 /* MergeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CA0C8C51D2DE200002B0F38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = SyLar;
+				TargetAttributes = {
+					2CA0C8CC1D2DE200002B0F38 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2CA0C8DF1D2DE200002B0F38 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2CA0C8CC1D2DE200002B0F38;
+					};
+					2CA0C8EA1D2DE200002B0F38 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2CA0C8CC1D2DE200002B0F38;
+					};
+				};
+			};
+			buildConfigurationList = 2CA0C8C81D2DE200002B0F38 /* Build configuration list for PBXProject "MergeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CA0C8C41D2DE200002B0F38;
+			productRefGroup = 2CA0C8CE1D2DE200002B0F38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CA0C8CC1D2DE200002B0F38 /* MergeTest */,
+				2CA0C8DF1D2DE200002B0F38 /* MergeTestTests */,
+				2CA0C8EA1D2DE200002B0F38 /* MergeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CA0C8CB1D2DE200002B0F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA0C8D71D2DE200002B0F38 /* Assets.xcassets in Resources */,
+				2CA0C8DA1D2DE200002B0F38 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA0C8DE1D2DE200002B0F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA0C8E91D2DE200002B0F38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CA0C8C91D2DE200002B0F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA0C8D51D2DE200002B0F38 /* main.m in Sources */,
+				2CA0C8D21D2DE200002B0F38 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA0C8DC1D2DE200002B0F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA0C8E51D2DE200002B0F38 /* MergeTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CA0C8E71D2DE200002B0F38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CA0C8F01D2DE200002B0F38 /* MergeTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CA0C8E21D2DE200002B0F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CA0C8CC1D2DE200002B0F38 /* MergeTest */;
+			targetProxy = 2CA0C8E11D2DE200002B0F38 /* PBXContainerItemProxy */;
+		};
+		2CA0C8ED1D2DE200002B0F38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CA0C8CC1D2DE200002B0F38 /* MergeTest */;
+			targetProxy = 2CA0C8EC1D2DE200002B0F38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CA0C8D81D2DE200002B0F38 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CA0C8D91D2DE200002B0F38 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CA0C8F21D2DE200002B0F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2CA0C8F31D2DE200002B0F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2CA0C8F51D2DE200002B0F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sylar.MergeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2CA0C8F61D2DE200002B0F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sylar.MergeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2CA0C8F81D2DE200002B0F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sylar.MergeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MergeTest.app/Contents/MacOS/MergeTest";
+			};
+			name = Debug;
+		};
+		2CA0C8F91D2DE200002B0F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sylar.MergeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MergeTest.app/Contents/MacOS/MergeTest";
+			};
+			name = Release;
+		};
+		2CA0C8FB1D2DE200002B0F38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sylar.MergeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MergeTest;
+			};
+			name = Debug;
+		};
+		2CA0C8FC1D2DE200002B0F38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sylar.MergeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MergeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CA0C8C81D2DE200002B0F38 /* Build configuration list for PBXProject "MergeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA0C8F21D2DE200002B0F38 /* Debug */,
+				2CA0C8F31D2DE200002B0F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CA0C8F41D2DE200002B0F38 /* Build configuration list for PBXNativeTarget "MergeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA0C8F51D2DE200002B0F38 /* Debug */,
+				2CA0C8F61D2DE200002B0F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CA0C8F71D2DE200002B0F38 /* Build configuration list for PBXNativeTarget "MergeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA0C8F81D2DE200002B0F38 /* Debug */,
+				2CA0C8F91D2DE200002B0F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2CA0C8FA1D2DE200002B0F38 /* Build configuration list for PBXNativeTarget "MergeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CA0C8FB1D2DE200002B0F38 /* Debug */,
+				2CA0C8FC1D2DE200002B0F38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CA0C8C51D2DE200002B0F38 /* Project object */;
+}
